@@ -39,7 +39,7 @@ Requirements
 * Ruby on Rails 3.2.11
 * RVM
 * Bundler
-* MySQL or SQLite3
+* MySQL (not sqlite3)
 * ImageMagick (RMagick)
 
 Installation
