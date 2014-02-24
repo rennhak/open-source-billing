@@ -15,13 +15,13 @@ ruby '2.1.0'
 group :default do # {{{
 
   # Framework
-  gem 'rails', '3.2.9'
+  gem 'rails'
 
   # Database
   gem 'mysql2'
 
   gem "acts_as_archival"
-  gem "acts_as_paranoid", "~>0.4.0"
+  gem "acts_as_paranoid"
   gem "activerecord-mysql-adapter"
   gem 'delayed_job_active_record'
 
@@ -73,12 +73,13 @@ end # }}}
 # Gems used only for assets and not required in production environments by default.
 group :assets do # {{{
   gem 'twitter-bootstrap-rails'
-  gem 'sass-rails', '~> 3.2.3'
-  gem 'coffee-rails', '~> 3.2.1'
+  gem 'sass-rails'
+  gem 'coffee-rails'
+  gem 'escape_utils', '=0.3.1'
 
   # See https://github.com/sstephenson/execjs#readme for more supported runtimes
   # gem 'therubyracer', :platforms => :ruby
-  gem 'uglifier', '>= 1.0.3'
+  gem 'uglifier'
   gem 'turbo-sprockets-rails3'
 end # of group :assets }}}
 
