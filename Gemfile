@@ -21,7 +21,7 @@ group :default do # {{{
   gem 'mysql2'
 
   gem "acts_as_archival"
-  gem "acts_as_paranoid"
+  gem 'paranoia'
   gem "activerecord-mysql-adapter"
   gem 'delayed_job_active_record'
 

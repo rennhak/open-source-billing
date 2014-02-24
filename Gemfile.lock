@@ -44,7 +44,6 @@ GEM
       tzinfo (~> 0.3.37)
     acts_as_archival (0.5.3)
       activerecord
-    acts_as_paranoid (0.3.1)
     arel (4.0.2)
     atomic (1.1.14)
     bcrypt (3.1.6)
@@ -127,6 +126,8 @@ GEM
     paper_trail (3.0.0)
       activerecord (>= 3.0, < 5.0)
       activesupport (>= 3.0, < 5.0)
+    paranoia (2.0.2)
+      activerecord (~> 4.0)
     paypal-sdk-core (0.2.7)
       multi_json (~> 1.0)
       xml-simple
@@ -212,7 +213,6 @@ DEPENDENCIES
   activemerchant
   activerecord-mysql-adapter
   acts_as_archival
-  acts_as_paranoid
   better_errors
   binding_of_caller
   browser
@@ -230,6 +230,7 @@ DEPENDENCIES
   mysql2
   nested_form
   paper_trail
+  paranoia
   paypal-sdk-rest
   pdfkit
   rails
