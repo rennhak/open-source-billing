@@ -19,6 +19,7 @@ group :default do # {{{
 
   # Database
   gem 'mysql2'
+  gem 'sqlite3'
 
   gem "acts_as_archival"
   gem 'paranoia'
